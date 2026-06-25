@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./CSS/sq.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <h1>マダミスをやってみよう</h1>
+        <!-- ハンバーガーメニュー -->
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#top">マダミスってなに？</a></li>
+                <li><a href="#asobikata">マダミスの遊び方</a></li>
+                <li><a href="#yougo">用語解説</a></li>
+                <li><a href="#enjoy">楽しく遊ぶために</a></li>
+                <li><a href="#">おすすめシナリオ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="first-img">
+            <div class="first">
+                <!-- ★ viewBoxの横幅を 1400 に広げて超大型化 -->
+                <svg viewBox="0 0 1400 180" class="curve-svg">
+                    <defs>
+                        <!-- 横幅 1400 に合わせた、途切れないための長いカーブ -->
+                        <path id="textPath" d="M 50,150 Q 700,20 1350,150" fill="none" />
+                    </defs>
+                    <text class="text-box">
+                        <!-- 真ん中（50%の位置）を中心に文字を配置 -->
+                        <textPath href="#textPath" startOffset="50%" text-anchor="middle">
+                            マダミスをやってみよう！！
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title" id="top">
+            <h2>マダミスってなに？</h2>
+        </div>
+
+        <div class="madamisu_toha">
+            <p class="ma-da-misuteri">
+                正式名称は<span class="main-color">「マーダーミステリー」</span>！
+            </p>
+
+            <p class="setumei">
+                <br>参加者が推理小説の登場人物になりきって遊ぶゲームです！
+                <br>探偵になったり、巻き込まれた人になったり、犯人役になるかも！？
+                <br>各キャラクターには目標があり、会話をしながら犯人を探したり、犯行を隠したり、はたまた別の秘密の目標を達成したり…
+                <br>このサイトではマーダーミステリー、略してマダミスについて紹介していきたいと思います。
+            </p>
+        </div>
+    </section>
+
+    <section class="asobikata" id="asobikata">
+        <div class="3title">
+            <h3>マダミスの遊び方</h3>
+        </div>
+
+        <div class="steps-container">
+
+            <div class="step-item">
+                <div class="step-img">
+                    <img src="./img/1erabu.png" alt="シナリオを選ぶ">
+                </div>
+                <div class="step-text">
+                    <h4>1.シナリオを選ぶ</h4>
+                    <p>これから遊ぶシナリオを選ぼう</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-img">
+                    <img src="./img/2kyara.png" alt="キャラクターを選ぶ">
+                </div>
+                <div class="step-text">
+                    <h4>2.キャラクターを選ぶ</h4>
+                    <p>自分が演じるキャラクターを選ぼう！</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-img">
+                    <img src="./img/3yomikomi.png" alt="HOを読み込む">
+                </div>
+                <div class="step-text">
+                    <h4>3.HOを読み込む</h4>
+                    <p>自分が演じるキャラのHOを<br>読み込もう！</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-img">
+                    <img src="./img/4hanasiai.png" alt="話し合おう！">
+                </div>
+                <div class="step-text">
+                    <h4>4.話し合おう！</h4>
+                    <p>RPをしながら事件について<br>話し合おう！</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-img">
+                    <img src="./img/5touhyou.png" alt="投票する">
+                </div>
+                <div class="step-text">
+                    <h4>5.投票する</h4>
+                    <p>投票したい人に投票する</p>
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-img">
+                    <img src="./img/6last.png" alt="エンディング">
+                </div>
+                <div class="step-text">
+                    <h4>6.エンディング</h4>
+                    <p>投票の結果から紡がれる<br>エンディング</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="terms-section" id="yougo">
+        <div class="section-title">
+            <h3>用語解説</h3>
+        </div>
+
+        <div class="terms-container">
+            <div class="term-card">
+                <div class="term-word">シナリオ</div>
+                <div class="term-desc">物語の設定・登場人物・事件の真相・進行ルールがまとめられた台本のようなもの</div>
+            </div>
+
+            <div class="term-card">
+                <div class="term-word">HO</div>
+                <div class="term-desc">ハンドアウト（Handout）の略で、各プレイヤーに配られる個別の設定資料のこと</div>
+            </div>
+
+            <div class="more-content">
+                <div class="term-card">
+                    <div class="term-word">GM</div>
+                    <div class="term-desc">ゲームマスター（Game Master）の略<br>ゲームの進行役</div>
+                </div>
+
+                <div class="term-card">
+                    <div class="term-word">PL</div>
+                    <div class="term-desc">プレイヤー（Player）の略<br>実際にキャラクターを演じてゲームに参加する人</div>
+                </div>
+
+                <div class="term-card">
+                    <div class="term-word">RP</div>
+                    <div class="term-desc">ロールプレイ（Role Play）の略<br>自分のキャラクターなりきって話したり行動したりすること</div>
+                </div>
+            </div>
+            <div class="fade-overlay"></div>
+        </div>
+
+        <div class="more-btn-container">
+            <button class="toggle-btn">もっとみる</button>
+        </div>
+    </section>
+
+    <section class="tyuui" id="enjoy">
+        <div class="4title">
+            <h3>楽しく遊ぶために</h3>
+        </div>
+
+        <div class="accordion-container">
+            <div class="accordion-header">
+                <span class="accordion-title">シナリオは一度きりの体験！</span>
+                <div class="accordion-icon">↓</div>
+            </div>
+
+            <div class="accordion-content">
+                <p class="accordion-text">
+                    シナリオの内容を知ってしまうと<br>もうできない！<br>ネタバレをしないように気を付けよう！
+                </p>
+                <div class="accordion-close-icon">↑</div>
+            </div>
+
+
+        </div>
+
+        <div class="accordion-container">
+            <div class="accordion-header">
+                <span class="accordion-title">勝敗は気にせず楽しもう</span>
+                <div class="accordion-icon">↓</div>
+            </div>
+
+            <div class="accordion-content">
+                <p class="accordion-text">
+                    マダミスによっては点数があることがある<br>けど、マダミスは楽しめたら勝ち！<br>勝敗にこだわらないようにしよう
+                </p>
+                <div class="accordion-close-icon">↑</div>
+            </div>
+
+
+        </div>
+
+        <div class="accordion-container">
+            <div class="accordion-header">
+                <span class="accordion-title">RPをしてみよう！</span>
+                <div class="accordion-icon">↓</div>
+            </div>
+
+            <div class="accordion-content">
+                <p class="accordion-text">
+                    RPをしてみよう！<br>まずは第一歩としてHOの内容をそのまま読み上げないようにしてみよう！
+                </p>
+                <div class="accordion-close-icon">↑</div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
