@@ -1,58 +1,68 @@
 @charset "UTF-8";
 
-@media (max-width:768px) {
-
-.first-img{
+@media (max-width: 768px) {
+  .first-img {
     height: 50vh;
-}
+  }
 
-    h2{
-        font-size: 4rem;
-        letter-spacing: 0.2rem;
-    }
-    
-    .ma-da-misuteri{
-        font-size: 2.5rem;
-    }
+  h2 {
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+  }
 
-    .setumei{
-        font-size: 2rem;
-        margin: 0 5%;
-    }
+  .ma-da-misuteri {
+    font-size: 2.5rem;
+  }
 
-    .term-word{
-        font-size: 2.5rem;
-    }
+  .setumei {
+    font-size: 2rem;
+    margin: 0 5%;
+  }
 
-    .accordion-title{
-        font-size: 2.5rem;
-    }
+  .term-word {
+    font-size: 2.5rem;
+  }
 
-    .accordion-text{
-        font-size: 2rem;
-    }
+  .accordion-title {
+    font-size: 2.5rem;
+  }
 
+  .accordion-text {
+    font-size: 2rem;
+  }
+
+  .search-btn {
+    font-size: 3rem;
+  }
+
+  .owari {
+    font-size: 2rem;
+  }
+  .sq-br {
+    display: none;
+  }
 }
 /* ===================================================
    💻 画面が広いPCのときだけ、少しだけ大きく見せる微調整
    =================================================== */
 @media (min-width: 768px) {
+  .step-item {
+    gap: 60px; /* PCではすき間を広く */
+  }
 
-    .step-item {
-        gap: 60px; /* PCではすき間を広く */
-    }
-    
-    
-    .step-text {
-        width: 350px; /* PCでのテキストの幅固定 */
-    }
-    
-    .step-text h3 {
-        font-size: 2.6rem; /* PC用の文字サイズ */
-    }
-    
-    .step-text p {
-        font-size: 2rem;
-    }
+  .step-text {
+    width: 350px; /* PCでのテキストの幅固定 */
+  }
+
+  .step-text h3 {
+    font-size: 2.6rem; /* PC用の文字サイズ */
+  }
+
+  .step-text p {
+    font-size: 2rem;
+  }
+
+  .sp-br {
+    display: none;
+  }
 }
-
